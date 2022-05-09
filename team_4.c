@@ -102,7 +102,20 @@ int sortion_test(void (*func)(data*, struct step_arr*), struct step_arr *(*step_
 
 int main() {
     int res = 0;
-
-    res += sortion_test(shell_sort, step_ciura, 0, 1000000, 10000, 1, "delete_this_7.txt");
+//    res += sortion_test(classic_insertion_sort, not_req, 0, 150000, 5000, 10, "test_classic_insertion_sort.txt");
+//    res += sortion_test(watchdog_element_insertion_sort, not_req, 0, 150000, 5000, 10, "test_watchdog_element_insertion_sort.txt");
+//    res += sortion_test(binary_search_insertion_sort, not_req, 0, 150000, 5000, 10, "test_binary_search_insertion_sort.txt");
+//    res += sortion_test(classic_shell_sort, not_req, 0, 15000000, 500000, 10, "test_classic_shell_sort.txt");
+//    res += sortion_test(shell_sort, step_shell, 0, 15000000, 500000, 10, "test_step_shell.txt");
+//    res += sortion_test(shell_sort, step_frank_and_lazarus, 0, 15000000, 500000, 10, "test_step_frank_and_lazarus.txt");
+//    res += sortion_test(shell_sort, step_hibbard, 0, 15000000, 500000, 10, "test_step_hibbard.txt");
+//    res += sortion_test(shell_sort, step_papernov_and_stasivich, 0, 15000000, 500000, 10, "test_step_papernov_and_stasivich.txt");
+//    res += sortion_test(shell_sort, step_pratt, 0, 15000000, 500000, 10, "test_step_pratt.txt");
+//    res += sortion_test(shell_sort, step_knuth, 0, 15000000, 500000, 10, "test_step_knuth.txt");
+//    res += sortion_test(shell_sort, step_sedgewick_1, 0, 15000000, 500000, 10, "test_step_sedgewick_1.txt");
+//    res += sortion_test(shell_sort, step_sedgewick_2, 0, 15000000, 500000, 10, "test_step_sedgewick_2.txt");
+//    res += sortion_test(shell_sort, step_gonnet_and_baeza_yates, 0, 15000000, 500000, 10, "test_step_gonnet_and_baeza_yates.txt");
+//    res += sortion_test(shell_sort, step_tokuda, 0, 15000000, 500000, 10, "test_step_tokuda.txt");
+//    res += sortion_test(shell_sort, step_ciura, 0, 15000000, 500000, 10, "test_step_ciura.txt");
     return res;
 }
