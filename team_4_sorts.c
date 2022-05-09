@@ -261,7 +261,7 @@ struct step_arr *step_tokuda(data *cur_data) {
 
 struct step_arr *step_ciura(data *cur_data) {
     int n = cur_data->n;
-    int s_max_len = 1;
+    int s_max_len = 9;
     int cur_step;
     struct step_arr *cur_step_arr = (struct step_arr*)malloc(sizeof(struct step_arr));
     if (cur_step_arr == NULL) exit(-2);
