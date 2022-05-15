@@ -157,7 +157,7 @@ struct step_arr *step_pratt(data *cur_data) {
     cur_step_arr->len = 0;
     for (p=0; (int)pow((float)2, p) < n; p++) {
         for (q=0; (int)pow((float)3, q) < n; q++) {
-            if ((cur_step = (int)pow((float)2, p)*(int)pow((float)3, q))<n) {
+            if ((cur_step = (int)pow((float)2, p)*(int)pow((float)3, q))<n && cur_step>0) {
                 if (cur_step_arr->len==s_max_len) cur_step_arr->s = (int*)realloc(cur_step_arr->s, (s_max_len*=2)*sizeof(int));
                 cur_step_arr->s[cur_step_arr->len] = cur_step;
                 cur_step_arr->len++;
